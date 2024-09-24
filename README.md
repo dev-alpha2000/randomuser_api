@@ -28,3 +28,23 @@ bash
 Copy code
 npm start
 The app will be available at http://localhost:3000.
+Usage
+View Random Users: The app will display random user data fetched from the Random User API on initial load.
+Load More Users: Click the "Load More" button to fetch more random users from the API.
+User Details: Each user card will display detailed information including their name, email, phone, and location.
+Error Handling: If the API request fails, an error message will be displayed.
+Customization
+API Data: Customize the data fetched from the Random User API by modifying the request in the api/ folder (e.g., to include or exclude certain fields like date of birth, gender, or nationality).
+Styling: Update the styles in App.css to change the design and layout of the user cards or the overall app.
+Pagination: Add pagination or infinite scroll to fetch a batch of users as the user scrolls down the page.
+Filters: Implement filtering by nationality, gender, or other user attributes using the API’s filtering options.
+Example
+When you open the app:
+
+The app automatically fetches random user data from the Random User API.
+Each user card displays the user's profile picture, name, email, phone number, and address.
+Users can click the "Load More" button to fetch additional random users.
+Dependencies
+React: Frontend framework for building the UI.
+Axios: For making API requests to the Random User API.
+CSS or Styled Components: For styling the app.
